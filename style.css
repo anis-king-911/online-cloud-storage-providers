@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+mark {
+  border-radius: 4px 4px 0 0;
+  padding: 0 4px;
+}
+
+.ServicesContainer {
+  width: 90%;
+  margin: 10px auto;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.ServiceBox {
+  flex-grow: 1;
+  flex-basis: 200px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  gap: 4px;
+  padding: 4px 8px;
+}
+
+.ServiceBox .Cover {
+  width: 56px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 100%;
+  outline: 1px solid #000;
+}
+
+.ServiceBox .Info {
+  flex: 1;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ServiceName {
+  white-space: nowrap;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.UserEmail {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.StorageSpace {
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}

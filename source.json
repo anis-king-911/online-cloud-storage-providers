@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Google Drive",
+    "logo": "./assets/google drive.png",
+    "link": "https://www.google.com/drive/",
+    "space": "15Gb"
+  },
+  {
+    "name": "Firebase Cloud",
+    "logo": "./assets/firebase.png",
+    "link": "https://firebase.google.com/products/storage",
+    "space": "5Gb"
+  },
+  {
+    "name": "Mega.nz",
+    "logo": "./assets/mega nz.png",
+    "link": "https://mega.io/",
+    "space": "20Gb"
+  },
+  {
+    "name": "iceDrive",
+    "logo": "./assets/icedrive.jpg",
+    "link": "https://icedrive.net/",
+    "space": "10Gb"
+  },
+  {
+    "name": "pCloud",
+    "logo": "./assets/pcloud.png",
+    "link": "https://www.pcloud.com/",
+    "space": "10Gb"
+  },
+  {
+    "name": "MediaFire",
+    "logo": "./assets/media fire.png",
+    "link": "https://www.mediafire.com/",
+    "space": "10Gb"
+  },
+  {
+    "name": "DropBox",
+    "logo": "./assets/dropbox.png",
+    "link": "https://www.dropbox.com/",
+    "space": "2Gb"
+  }
+]
